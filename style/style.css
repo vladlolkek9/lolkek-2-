@@ -1,0 +1,42 @@
+@font-face { font-family: "Roboto-Black"; src: url("Roboto-Black.ttf"); }
+@font-face { font-family: "Roboto-Regular"; src: url("Roboto-Regular.ttf"); }
+@font-face { font-family: "Roboto-Thin"; src: url("Roboto-Thin.ttf"); }
+
+body {
+    font-family: Roboto-Regular, Arial, sans-serif;
+ 
+    color: #ffffff;
+    background-color: #000000;
+    background: url('../src/icons/1920x1080_2974.jpg')  no-repeat fixed;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                not supported by any browser */
+}
+
+
+form {
+margin: 40px auto 20px;
+box-sizing: border-box;
+width: 400px;
+padding: 20px;
+border: solid 2px #ffffff;
+border-radius: 20px;
+font-size: 18px;
+background-color: rgba(51, 143, 134, 0.5);
+background-position: center;
+background-size: 50%;
+}
+
+
+.lol1 {
+    display: block;
+    justify-content:center;
+
+}
+body {
+    background-image: url ('./src/1920x1080_2974.jpg');
+}
